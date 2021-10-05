@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "cypherWorkbenchVersion": "1.0.0",
+    "title": "test model",
+    "description": "",
+    "notes": "",
+    "customer": "",
+    "authors": "",
+    "tags": "",
+    "dateCreated": "1633473818443",
+    "dateUpdated": "1633474202906",
+    "viewSettings": {
+      "canvasViewSettings": {
+        "currentPan": {
+          "x": 0,
+          "y": 0
+        },
+        "currentOffset": {
+          "x": 0,
+          "y": 0
+        },
+        "scaleFactor": 1
+      }
+    }
+  },
+  "dataModel": {
+    "nodeLabels": {
+      "Node0": {
+        "classType": "NodeLabel",
+        "label": "Node 1",
+        "fromDataSources": [],
+        "key": "Node0",
+        "indexes": [],
+        "properties": {},
+        "secondaryNodeLabelKeys": [],
+        "isOnlySecondaryNodeLabel": false,
+        "description": null,
+        "referenceData": "{\"secondaryNodeLabelKeys\":[],\"isOnlySecondaryNodeLabel\":false}",
+        "display": {
+          "color": "white",
+          "stroke": "black",
+          "strokeWidth": 4,
+          "x": 200,
+          "y": 100,
+          "radius": 40,
+          "size": "md",
+          "width": 80,
+          "height": 80,
+          "fontSize": 14,
+          "fontColor": "black",
+          "textLocation": "middle",
+          "isLocked": false
+        }
+      },
+      "Node1": {
+        "classType": "NodeLabel",
+        "label": "Previous Model",
+        "fromDataSources": [],
+        "key": "Node1",
+        "indexes": [],
+        "properties": {},
+        "secondaryNodeLabelKeys": [],
+        "isOnlySecondaryNodeLabel": false,
+        "description": null,
+        "referenceData": "{\"secondaryNodeLabelKeys\":[],\"isOnlySecondaryNodeLabel\":false}",
+        "display": {
+          "color": "white",
+          "stroke": "black",
+          "strokeWidth": 4,
+          "x": 440,
+          "y": 100,
+          "radius": 40,
+          "size": "md",
+          "width": 80,
+          "height": 80,
+          "fontSize": 14,
+          "fontColor": "black",
+          "textLocation": "middle",
+          "isLocked": false
+        }
+      }
+    },
+    "relationshipTypes": {
+      "Rel1": {
+        "classType": "RelationshipType",
+        "key": "Rel1",
+        "type": null,
+        "startNodeLabelKey": "Node0",
+        "endNodeLabelKey": "Node1",
+        "properties": {},
+        "referenceData": {},
+        "description": null,
+        "outMinCardinality": "0",
+        "outMaxCardinality": "many",
+        "inMinCardinality": "0",
+        "inMaxCardinality": "many",
+        "display": {
+          "color": "black",
+          "fontSize": 14,
+          "strokeWidth": 3,
+          "offset": 0
+        }
+      }
+    }
+  }
+}
