@@ -8,7 +8,7 @@
     "authors": "",
     "tags": "",
     "dateCreated": "1633473818443",
-    "dateUpdated": "1633474202906",
+    "dateUpdated": "1633474404448",
     "viewSettings": {
       "canvasViewSettings": {
         "currentPan": {
@@ -25,33 +25,6 @@
   },
   "dataModel": {
     "nodeLabels": {
-      "Node0": {
-        "classType": "NodeLabel",
-        "label": "Node 1",
-        "fromDataSources": [],
-        "key": "Node0",
-        "indexes": [],
-        "properties": {},
-        "secondaryNodeLabelKeys": [],
-        "isOnlySecondaryNodeLabel": false,
-        "description": null,
-        "referenceData": "{\"secondaryNodeLabelKeys\":[],\"isOnlySecondaryNodeLabel\":false}",
-        "display": {
-          "color": "white",
-          "stroke": "black",
-          "strokeWidth": 4,
-          "x": 200,
-          "y": 100,
-          "radius": 40,
-          "size": "md",
-          "width": 80,
-          "height": 80,
-          "fontSize": 14,
-          "fontColor": "black",
-          "textLocation": "middle",
-          "isLocked": false
-        }
-      },
       "Node1": {
         "classType": "NodeLabel",
         "label": "Previous Model",
@@ -78,15 +51,89 @@
           "textLocation": "middle",
           "isLocked": false
         }
+      },
+      "Node2": {
+        "classType": "NodeLabel",
+        "label": "Node 2",
+        "fromDataSources": [],
+        "key": "Node2",
+        "indexes": [],
+        "properties": {},
+        "secondaryNodeLabelKeys": [],
+        "isOnlySecondaryNodeLabel": false,
+        "description": null,
+        "referenceData": "{\"secondaryNodeLabelKeys\":[],\"isOnlySecondaryNodeLabel\":false}",
+        "display": {
+          "color": "white",
+          "stroke": "black",
+          "strokeWidth": 4,
+          "x": 700,
+          "y": 120,
+          "radius": 40,
+          "size": "md",
+          "width": 80,
+          "height": 80,
+          "fontSize": 14,
+          "fontColor": "black",
+          "textLocation": "middle",
+          "isLocked": false
+        }
+      },
+      "Node3": {
+        "classType": "NodeLabel",
+        "label": "Node 3",
+        "fromDataSources": [],
+        "key": "Node3",
+        "indexes": [],
+        "properties": {},
+        "secondaryNodeLabelKeys": [],
+        "isOnlySecondaryNodeLabel": false,
+        "description": null,
+        "referenceData": "{\"secondaryNodeLabelKeys\":[],\"isOnlySecondaryNodeLabel\":false}",
+        "display": {
+          "color": "white",
+          "stroke": "black",
+          "strokeWidth": 4,
+          "x": 980,
+          "y": 140,
+          "radius": 40,
+          "size": "md",
+          "width": 80,
+          "height": 80,
+          "fontSize": 14,
+          "fontColor": "black",
+          "textLocation": "middle",
+          "isLocked": false
+        }
       }
     },
     "relationshipTypes": {
-      "Rel1": {
+      "Rel2": {
         "classType": "RelationshipType",
-        "key": "Rel1",
+        "key": "Rel2",
         "type": null,
-        "startNodeLabelKey": "Node0",
-        "endNodeLabelKey": "Node1",
+        "startNodeLabelKey": "Node1",
+        "endNodeLabelKey": "Node2",
+        "properties": {},
+        "referenceData": {},
+        "description": null,
+        "outMinCardinality": "0",
+        "outMaxCardinality": "many",
+        "inMinCardinality": "0",
+        "inMaxCardinality": "many",
+        "display": {
+          "color": "black",
+          "fontSize": 14,
+          "strokeWidth": 3,
+          "offset": 0
+        }
+      },
+      "Rel3": {
+        "classType": "RelationshipType",
+        "key": "Rel3",
+        "type": null,
+        "startNodeLabelKey": "Node2",
+        "endNodeLabelKey": "Node3",
         "properties": {},
         "referenceData": {},
         "description": null,
